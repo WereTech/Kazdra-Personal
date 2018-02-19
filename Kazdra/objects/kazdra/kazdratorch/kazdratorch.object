@@ -2,6 +2,8 @@
   "objectName" : "kazdratorch",
   "colonyTags" : ["kazdra","light"],
   "rarity" : "Common",
+  "category" : "light",
+  "price" : 500,
   "description" : "A pretty iron wall sconce.",
   "shortdescription" : "Kazdra Torch",
   "race" : "kazdra",
@@ -13,15 +15,13 @@
   "humanDescription" : "An electric lamp. It looks built for a flame.",
   "hylotlDescription" : "The lamp appears to be designed to house a flame but is entirely electric.",
 
-  "category" : "light",
-  "price" : 500,
   "lightColor" : [106, 72, 173],
 
   "inventoryIcon" : "kazdratorchicon.png",
   "orientations" : [
     {
       "image" : "kazdratorchbg.png:<color>.<frame>",
-      "imagePosition" : [0, -8],
+      "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.3,
 
@@ -30,7 +30,7 @@
     },
     {
       "image" : "kazdratorchleft.png:<color>.<frame>",
-      "imagePosition" : [0, -8],
+      "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.3,
 
@@ -39,12 +39,29 @@
     },
     {
       "image" : "kazdratorchright.png:<color>.<frame>",
-      "imagePosition" : [0, -8],
+      "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.3,
 
       "spaceScan" : 0.1,
       "anchors" : [ "right" ]
     }
-  ]
+  ],
+  
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "kazdratorchbg.png",
+    "fg" : "kazdratorchbg.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/tinywallswitch.ogg" ],
+      "off" : [ "/sfx/objects/tinywallswitch.ogg" ]
+    }
+  },
+  
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
 }

@@ -2,9 +2,8 @@
   "objectName" : "crystallight1",
   "colonyTags" : ["kazdra","light"],
   "rarity" : "Common",
-  "printable" : false,
   "category" : "light",
-  "lightPosition" : [0, -7],
+  "price" : 500,
   "description" : "A glowing crystal set in a stylised wall fixture.",
   "shortdescription" : "Crystal Light",
   "race" : "kazdra",
@@ -15,10 +14,6 @@
   "glitchDescription" : "Confused. Design and purpose do not match. Lamp supplies oxygen for a flame, however, device is entirely electric.",
   "humanDescription" : "An electric lamp. It looks built for a flame.",
   "hylotlDescription" : "The crystal shines brilliantly inside it's fixture.",
-
-  "price" : 500,
-  
-  "statusEffects" : [ ],
   
   "lightColor" : [175, 191, 142],
 
@@ -26,12 +21,29 @@
   "orientations" : [
     {
       "image" : "crystallight1.png:<color>.<frame>",
-      "imagePosition" : [0, -8],
+      "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.3,
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
     }
-  ]
+  ],
+  
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "crystallight1.png",
+    "fg" : "crystallight1.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/tinywallswitch.ogg" ],
+      "off" : [ "/sfx/objects/tinywallswitch.ogg" ]
+    }
+  },
+  
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
 }
