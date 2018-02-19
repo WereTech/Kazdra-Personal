@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 8 },
+    { "item" : "resonite", "count" : 105 }
+  ],
+  "output" : { "item" : "kazdratier2chest", "count" : 1 },
+  "groups" : [ "craftinganvil", "armours", "all" ]
+}

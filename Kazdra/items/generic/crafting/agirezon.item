@@ -1,0 +1,10 @@
+{
+  "itemName" : "agirezon",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "agirezon.png",
+  "description" : "Resonite that has been galvanized by combining it with zoastone.",
+  "shortdescription" : "Agirezon Crystal",
+  "itemTags" : [ "reagent" ],
+  "fuelAmount" : 50
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "creamstaloa",
+  "category" : "staloa",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "stala3.png"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "objectName" : "flagkazdra",
+  "colonyTags" : ["kazdra"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 70,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+
+  "description" : "The Kazdran flag. Bookmarks a teleportation location.",
+  "shortdescription" : "Kazdran Flag",
+  "race" : "kazdra",
+
+  "apexDescription" : "This flag bears the symbol of the Kazdra. I wonder who put it here...",
+  "avianDescription" : "A flag bearing the mark of the Kazdra, I wonder what it symbolizes.",
+  "floranDescription" : "Floran feels sssense of determination when Floran looks at thisss flag.",
+  "glitchDescription" : "Statement. this flag has an interesting design.",
+  "humanDescription" : "The emblem on this flag inspires a sense of grace.",
+  "hylotlDescription" : "An odd design choice if you ask me...",
+  "kazdraDescription" : "A flag emblazoned with the symbol of my people, a sign of light in darkness.",
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+
+  "inventoryIcon" : "flagkazdraicon.png",
+  "orientations" : [
+    {
+      "image" : "flagkazdra.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-8, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flagkazdra.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [-8, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

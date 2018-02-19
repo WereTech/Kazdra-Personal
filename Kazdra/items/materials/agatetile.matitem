@@ -1,0 +1,10 @@
+{
+  "itemName" : "agatetile",
+  "rarity" : "Common",
+  "inventoryIcon" : "agatetile.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "These agate tiles make it look as if there's a waterfall here.",
+  "shortdescription" : "Agate Tile",
+
+  "materialId" : 28105
+}

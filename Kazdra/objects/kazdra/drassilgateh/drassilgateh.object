@@ -1,0 +1,62 @@
+{
+  "objectName" : "drassilgateh",
+  "colonyTags" : ["kazdra","door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 950,
+  "description" : "There's something etched into the bottom part of the door...",
+  "shortdescription" : "Drassil Flood Gate",
+  "race" : "kazdra",
+  
+  "openLight" : [35, 75, 35],
+
+  "apexDescription" : "A sliding door. Exciting.",
+  "avianDescription" : "Some cultures believe that if you have no soul, these doors will not react.",
+  "floranDescription" : "Floran have trouble making door work sssometimes.",
+  "glitchDescription" : "Hypnotised. There is something fascinating about the movement of these doors.",
+  "humanDescription" : "Once, I ran at a door like this and it didn't open in time and... yeah.",
+  "hylotlDescription" : "A sleek sliding door.",
+  "kazdraDescription" : "This barrier was built to hold back anything.",
+
+
+  "inventoryIcon" : "drassilgatehicon.png",
+  "orientations" : [
+    {
+      "image" : "drassilgateh.png:default",
+      "imagePosition" : [-16, -8],
+	  "renderLayer" : "Object+5",
+	  
+	  "animationParts" : {
+        "bg" : "drassilgateh.png",
+        "fg" : "drassilgatehlit.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/kazglowdoor.animation",
+  //"animation" : "/objects/wired/door/fullbrightanimatedslidingdoor.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "open" : [ "/sfx/objects/bunkerslidingdoor_open.ogg" ],
+      "close" : [ "/sfx/objects/bunkerslidingdoor_close.ogg" ]
+	}
+  },
+  
+  "animationParts" : {
+    //"door" : "drassilgateh.png"
+	"bg" : "drassilgateh.png",
+	"fg" : "drassilgatehlit.png"
+  },
+  "animationPosition" : [-16, -8],
+
+  "inputNodes" : [ [-1, 0] ],
+  "outputNodes" : [ [1, 0] ]
+
+}

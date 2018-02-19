@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 10 },
+    { "item" : "cobblestonematerial", "count" : 5 },
+	{ "item" : "resonite", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "drassilgateh",
+    "count" : 1
+  },
+  "groups" : [ "plain", "objects", "all" ]
+}

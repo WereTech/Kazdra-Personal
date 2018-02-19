@@ -1,0 +1,21 @@
+{
+  "materialId" : 27999,
+  "materialName" : "kazship2",
+  "particleColor" : [176, 174, 168, 255],    
+  "itemDrop" : "kazship2",
+  "description" : "Thick metal plates, for when light plating isn't good enough.",
+  "shortdescription" : "Kazdra Heavy Plating",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 51,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "kazship2.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

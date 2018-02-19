@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "resonite", "count" : 1 },
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "gyrfin",
+    "count" : 1
+  },
+  "groups" : [ "plain", "objects", "all" ]
+}

@@ -1,0 +1,61 @@
+{
+  "objectName" : "crystalinedoorh",
+  "colonyTags" : ["kazdra","door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 50,
+  "description" : "A floor hatch made of stone for preventing intrusions from above or below.",
+  "shortdescription" : "Stone Floor Hatch",
+  "race" : "kazdra",
+  
+  "openLight" : [25, 75, 30],
+
+  "apexDescription" : "This'll keep me safe from attacks from above!",
+  "avianDescription" : "We should install these on our air ships. It would the crew's lives much safer.",
+  "floranDescription" : "Floran likess floor door. Keepss floran safe from sstabbing.",
+  "glitchDescription" : "Statement. Seems sturdy enough. Those flying demons can't get me now!",
+  "humanDescription" : "... the birds are gone now, right?",
+  "hylotlDescription" : "Unless those beasts have rockets, I should be safe.",
+  "kazdraDescription" : "Useful in ways that vertical doors aren't.",
+
+
+  "inventoryIcon" : "crystalinedoorhicon.png",
+  "orientations" : [
+    {
+      "image" : "crystalinedoorh.png:default",
+      "imagePosition" : [-16, 0],
+	  "renderLayer" : "Object+5",
+	  
+	  "animationParts" : {
+        "bg" : "crystalinedoorh.png",
+        "fg" : "crystalinedoorhlit.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/kazglowdoor.animation",
+  //"animation" : "/objects/wired/door/fullbrightanimatedslidingdoor.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "open" : [ "/sfx/objects/bunkerslidingdoor_open.ogg" ],
+      "close" : [ "/sfx/objects/bunkerslidingdoor_close.ogg" ]
+	}
+  },
+  
+  "animationParts" : {
+    "bg" : "crystalinedoorh.png",
+	"fg" : "crystalinedoorhlit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inputNodes" : [ [-1, 0] ],
+  "outputNodes" : [ [1, 0] ]
+
+}

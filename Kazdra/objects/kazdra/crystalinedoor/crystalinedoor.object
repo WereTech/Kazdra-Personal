@@ -1,0 +1,52 @@
+{
+  "objectName" : "crystalinedoor",
+  "colonyTags" : ["kazdra","door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 650,
+  "description" : "And yet, I still can't see through it...",
+  "shortdescription" : "Sliding Crystal Door",
+  "race" : "kazdra",
+
+  "apexDescription" : "A sliding door. Exciting.",
+  "avianDescription" : "Some cultures believe that if you have no soul, these doors will not react.",
+  "floranDescription" : "Floran have trouble making door work sssometimes.",
+  "glitchDescription" : "Hypnotised. There is something fascinating about the movement of these doors.",
+  "humanDescription" : "Once, I ran at a door like this and it didn't open in time and... yeah.",
+  "hylotlDescription" : "A sleek sliding door.",
+
+
+  "inventoryIcon" : "crystalinedooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crystalinedoor.png:closed",
+      "imagePosition" : [0, 0],
+	  "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+    "animationCustom" : {
+	  "sounds" : {
+	    "open" : [ "/sfx/objects/bunkerslidingdoor_open.ogg" ],
+	    "close" : [ "/sfx/objects/bunkerslidingdoor_close.ogg" ]
+	  }
+	},
+  
+  "animationParts" : {
+    "door" : "crystalinedoor.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [1, 0] ]
+
+  
+}

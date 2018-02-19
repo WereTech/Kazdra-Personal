@@ -1,0 +1,258 @@
+[
+{ "op" : "add"
+	,"path" : "/kazdrascience"
+	,"value" : [
+		[0, [
+			{ "item" : { "name" : "redstim" } },
+			{ "item" : { "name" : "medkit" } },
+			{ "item" : { "name" : "bandage" } }
+		]]
+	]
+},
+
+{ "op" : "add"
+	,"path" : "/kazdrapub"
+	,"value" : [
+		[0, [
+			{ "item" : { "name" : "greenstim" } },
+			{ "item" : { "name" : "redstim" } },
+			{ "item" : { "name" : "yellowstim" } },
+			{ "item" : { "name" : "bluestim" } },
+			{ "item" : { "name" : "whiskeyflask" } },
+			{ "item" : { "name" : "wineglass" } },
+			{ "item" : { "name" : "ricewine" } }
+		]]
+	]
+},
+
+{ "op" : "add"
+	,"path" : "/kazdraweaponblueprints"
+	,"value" : [
+		[0, [
+			{ "item" : { "name" : "kazdratier1hammer-recipe" }, "cost" : 750, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier1shortsword-recipe" }, "cost" : 375, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier1broadsword-recipe" }, "cost" : 750, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier1spear-recipe" }, "cost" : 750, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier1axe-recipe" }, "cost" : 750, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier1dagger-recipe" }, "cost" : 375, "rarity" : 0.1 }
+		]],
+		  [2, [
+			{ "item" : { "name" : "kazdratier2hammer" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier2shortsword" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier2broadsword" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier2spear" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier2axe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier2dagger" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier1hammer" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier1shortsword" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier1broadsword" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier1spear" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier1axe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier1dagger" }, "rarity" : 0.1 }
+		]]
+		  //[3, [
+            //{ "item" : { "name" : "aviantier3hammer-recipe" }, "cost" : 2250, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier3shortsword-recipe" }, "cost" : 1125, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier3broadsword-recipe" }, "cost" : 2250, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier3spear-recipe" }, "cost" : 2250, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier3axe-recipe" }, "cost" : 2250, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier3dagger-recipe" }, "cost" : 1125, "rarity" : 0.5 },
+			//{ "item" : { "name" : "aviantier2hammer-recipe" }, "cost" : 1500, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier2shortsword-recipe" }, "cost" : 750, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier2broadsword-recipe" }, "cost" : 1500, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier2spear-recipe" }, "cost" : 1500, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier2axe-recipe" }, "cost" : 1500, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier2dagger-recipe" }, "cost" : 750, "rarity" : 0.5 }
+          //]]
+	]
+},
+
+{ "op" : "add"
+	,"path" : "/kazdraarmorblueprints"
+	,"value" : [
+		[0, [
+			{ "item" : { "name" : "kazdratier1chest" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier1head" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier1pants" }, "rarity" : 0.1 }
+		]],
+		  [2, [
+			{ "item" : { "name" : "kazdratier2chest" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier2head" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier2pants" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier1chest" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier1head" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier1pants" }, "rarity" : 0.1 }
+		]],
+		  [3, [
+			{ "item" : { "name" : "kazdratier3chest" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier3head" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier3pants" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier2chest" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier2head" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kazdratier2pants" }, "rarity" : 0.1 }
+		]]
+		  //[4, [
+            //{ "item" : { "name" : "aviantier4chest-recipe" }, "cost" : 2000, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier4head-recipe" }, "cost" : 1200, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier4pants-recipe" }, "cost" : 800, "rarity" : 0.5 },
+			//{ "item" : { "name" : "aviantier3chest-recipe" }, "cost" : 1500, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier3head-recipe" }, "cost" : 900, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier3pants-recipe" }, "cost" : 600, "rarity" : 0.5 }
+          //]],
+		  //[5, [
+            //{ "item" : { "name" : "aviantier5chest-recipe" }, "cost" : 2500, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier5head-recipe" }, "cost" : 1500, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier5pants-recipe" }, "cost" : 1000, "rarity" : 0.5 },
+			//{ "item" : { "name" : "aviantier4chest-recipe" }, "cost" : 2000, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier4head-recipe" }, "cost" : 1200, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier4pants-recipe" }, "cost" : 800, "rarity" : 0.5 }
+          //]],
+		  //[6, [
+            //{ "item" : { "name" : "aviantier6chest-recipe" }, "cost" : 3000, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier6head-recipe" }, "cost" : 1800, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier6pants-recipe" }, "cost" : 1200, "rarity" : 0.5 },
+			//{ "item" : { "name" : "aviantier5chest-recipe" }, "cost" : 2500, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier5head-recipe" }, "cost" : 1500, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier5pants-recipe" }, "cost" : 1000, "rarity" : 0.5 }
+          //]],
+		  //[7, [
+            //{ "item" : { "name" : "aviantier7chest-recipe" }, "cost" : 3500, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier7head-recipe" }, "cost" : 2100, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier7pants-recipe" }, "cost" : 1400, "rarity" : 0.5 },
+			//{ "item" : { "name" : "aviantier6chest-recipe" }, "cost" : 3000, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier6head-recipe" }, "cost" : 1800, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier6pants-recipe" }, "cost" : 1200, "rarity" : 0.5 }
+          //]],
+		  //[8, [
+            //{ "item" : { "name" : "aviantier8chest-recipe" }, "cost" : 4000, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier8head-recipe" }, "cost" : 2400, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier8pants-recipe" }, "cost" : 1600, "rarity" : 0.5 },
+			//{ "item" : { "name" : "aviantier7chest-recipe" }, "cost" : 3500, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier7head-recipe" }, "cost" : 2100, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier7pants-recipe" }, "cost" : 1400, "rarity" : 0.5 }
+          //]],
+		  //[9, [
+            //{ "item" : { "name" : "aviantier9chest-recipe" }, "cost" : 4500, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier9head-recipe" }, "cost" : 2700, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier9pants-recipe" }, "cost" : 1800, "rarity" : 0.5 },
+			//{ "item" : { "name" : "aviantier8chest-recipe" }, "cost" : 4000, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier8head-recipe" }, "cost" : 2400, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier8pants-recipe" }, "cost" : 1600, "rarity" : 0.5 }
+          //]],
+		  //[10, [
+            //{ "item" : { "name" : "aviantier10chest-recipe" }, "cost" : 5000, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier10head-recipe" }, "cost" : 3000, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier10pants-recipe" }, "cost" : 2000, "rarity" : 0.5 },
+			//{ "item" : { "name" : "aviantier9chest-recipe" }, "cost" : 4500, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier9head-recipe" }, "cost" : 2700, "rarity" : 0.5 },
+            //{ "item" : { "name" : "aviantier9pants-recipe" }, "cost" : 1800, "rarity" : 0.5 }
+          //]]
+	]
+},
+
+{ "op" : "add"
+	,"path" : "/kazdraclothes"
+	,"value" : [
+		[0, [
+			{ "item" : { "name" : "gemcraftchest", "parameters" : { "colorIndex" : 1 } } },
+			{ "item" : { "name" : "gemcraftchest", "parameters" : { "colorIndex" : 3 } } },
+			{ "item" : { "name" : "gemcraftchest", "parameters" : { "colorIndex" : 4 } } },
+			{ "item" : { "name" : "gemcraftchest", "parameters" : { "colorIndex" : 5 } } },
+			{ "item" : { "name" : "gemcraftchest", "parameters" : { "colorIndex" : 6 } } },
+			{ "item" : { "name" : "gemcraftchest", "parameters" : { "colorIndex" : 7 } } },
+			{ "item" : { "name" : "gemcraftchest", "parameters" : { "colorIndex" : 8 } } },
+			{ "item" : { "name" : "gemcraftchest", "parameters" : { "colorIndex" : 9 } } },
+			{ "item" : { "name" : "gemcraftchest", "parameters" : { "colorIndex" : 10 } } },
+			{ "item" : { "name" : "gemcraftchest", "parameters" : { "colorIndex" : 11 } } },
+			{ "item" : { "name" : "gemcraftskals", "parameters" : { "colorIndex" : 1 } } },
+			{ "item" : { "name" : "gemcraftskals", "parameters" : { "colorIndex" : 3 } } },
+			{ "item" : { "name" : "gemcraftskals", "parameters" : { "colorIndex" : 4 } } },
+			{ "item" : { "name" : "gemcraftskals", "parameters" : { "colorIndex" : 5 } } },
+			{ "item" : { "name" : "gemcraftskals", "parameters" : { "colorIndex" : 6 } } },
+			{ "item" : { "name" : "gemcraftskals", "parameters" : { "colorIndex" : 7 } } },
+			{ "item" : { "name" : "gemcraftskals", "parameters" : { "colorIndex" : 8 } } },
+			{ "item" : { "name" : "gemcraftskals", "parameters" : { "colorIndex" : 9 } } },
+			{ "item" : { "name" : "gemcraftskals", "parameters" : { "colorIndex" : 10 } } },
+			{ "item" : { "name" : "gemcraftskals", "parameters" : { "colorIndex" : 11 } } },
+			{ "item" : { "name" : "huntsmanshirt", "parameters" : { "colorIndex" : 1 } } },
+			{ "item" : { "name" : "huntsmanshirt", "parameters" : { "colorIndex" : 3 } } },
+			{ "item" : { "name" : "huntsmanshirt", "parameters" : { "colorIndex" : 4 } } },
+			{ "item" : { "name" : "huntsmanshirt", "parameters" : { "colorIndex" : 5 } } },
+			{ "item" : { "name" : "huntsmanshirt", "parameters" : { "colorIndex" : 6 } } },
+			{ "item" : { "name" : "huntsmanshirt", "parameters" : { "colorIndex" : 7 } } },
+			{ "item" : { "name" : "huntsmanshirt", "parameters" : { "colorIndex" : 8 } } },
+			{ "item" : { "name" : "huntsmanshirt", "parameters" : { "colorIndex" : 9 } } },
+			{ "item" : { "name" : "huntsmanshirt", "parameters" : { "colorIndex" : 10 } } },
+			{ "item" : { "name" : "huntsmanshirt", "parameters" : { "colorIndex" : 11 } } },
+			{ "item" : { "name" : "huntsmanskals", "parameters" : { "colorIndex" : 1 } } },
+			{ "item" : { "name" : "huntsmanskals", "parameters" : { "colorIndex" : 3 } } },
+			{ "item" : { "name" : "huntsmanskals", "parameters" : { "colorIndex" : 4 } } },
+			{ "item" : { "name" : "huntsmanskals", "parameters" : { "colorIndex" : 5 } } },
+			{ "item" : { "name" : "huntsmanskals", "parameters" : { "colorIndex" : 6 } } },
+			{ "item" : { "name" : "huntsmanskals", "parameters" : { "colorIndex" : 7 } } },
+			{ "item" : { "name" : "huntsmanskals", "parameters" : { "colorIndex" : 8 } } },
+			{ "item" : { "name" : "huntsmanskals", "parameters" : { "colorIndex" : 9 } } },
+			{ "item" : { "name" : "huntsmanskals", "parameters" : { "colorIndex" : 10 } } },
+			{ "item" : { "name" : "huntsmanskals", "parameters" : { "colorIndex" : 11 } } },
+			{ "item" : { "name" : "bellshirt", "parameters" : { "colorIndex" : 1 } } },
+			{ "item" : { "name" : "bellshirt", "parameters" : { "colorIndex" : 4 } } },
+			{ "item" : { "name" : "bellshirt", "parameters" : { "colorIndex" : 5 } } },
+			{ "item" : { "name" : "bellshirt", "parameters" : { "colorIndex" : 6 } } },
+			{ "item" : { "name" : "bellshirt", "parameters" : { "colorIndex" : 7 } } },
+			{ "item" : { "name" : "bellshirt", "parameters" : { "colorIndex" : 8 } } },
+			{ "item" : { "name" : "bellshirt", "parameters" : { "colorIndex" : 9 } } },
+			{ "item" : { "name" : "bellshirt", "parameters" : { "colorIndex" : 10 } } },
+			{ "item" : { "name" : "bellshirt", "parameters" : { "colorIndex" : 11 } } },
+			{ "item" : { "name" : "bellskals", "parameters" : { "colorIndex" : 1 } } },
+			{ "item" : { "name" : "bellskals", "parameters" : { "colorIndex" : 4 } } },
+			{ "item" : { "name" : "bellskals", "parameters" : { "colorIndex" : 5 } } },
+			{ "item" : { "name" : "bellskals", "parameters" : { "colorIndex" : 6 } } },
+			{ "item" : { "name" : "bellskals", "parameters" : { "colorIndex" : 7 } } },
+			{ "item" : { "name" : "bellskals", "parameters" : { "colorIndex" : 8 } } },
+			{ "item" : { "name" : "bellskals", "parameters" : { "colorIndex" : 9 } } },
+			{ "item" : { "name" : "bellskals", "parameters" : { "colorIndex" : 10 } } },
+			{ "item" : { "name" : "bellskals", "parameters" : { "colorIndex" : 11 } } },
+			{ "item" : { "name" : "thiefshirt", "parameters" : { "colorIndex" : 4 } } },
+			{ "item" : { "name" : "thiefshirt", "parameters" : { "colorIndex" : 5 } } },
+			{ "item" : { "name" : "thiefshirt", "parameters" : { "colorIndex" : 6 } } },
+			{ "item" : { "name" : "thiefshirt", "parameters" : { "colorIndex" : 7 } } },
+			{ "item" : { "name" : "thiefshirt", "parameters" : { "colorIndex" : 8 } } },
+			{ "item" : { "name" : "thiefshirt", "parameters" : { "colorIndex" : 9 } } },
+			{ "item" : { "name" : "thiefshirt", "parameters" : { "colorIndex" : 10 } } },
+			{ "item" : { "name" : "thiefshirt", "parameters" : { "colorIndex" : 11 } } },
+			{ "item" : { "name" : "thiefskals", "parameters" : { "colorIndex" : 4 } } },
+			{ "item" : { "name" : "thiefskals", "parameters" : { "colorIndex" : 5 } } },
+			{ "item" : { "name" : "thiefskals", "parameters" : { "colorIndex" : 6 } } },
+			{ "item" : { "name" : "thiefskals", "parameters" : { "colorIndex" : 7 } } },
+			{ "item" : { "name" : "thiefskals", "parameters" : { "colorIndex" : 8 } } },
+			{ "item" : { "name" : "thiefskals", "parameters" : { "colorIndex" : 9 } } },
+			{ "item" : { "name" : "thiefskals", "parameters" : { "colorIndex" : 10 } } },
+			{ "item" : { "name" : "thiefskals", "parameters" : { "colorIndex" : 11 } } }
+		]]
+	]
+},
+
+{ "op" : "add"
+	,"path" : "/kazdragem"
+	,"value" : [
+		[0, [
+			{ "item" : { "name" : "resonite" } },
+			{ "item" : { "name" : "zoastone" } },
+			{ "item" : { "name" : "hiron" } },
+			{ "item" : { "name" : "koorium" } },
+			{ "item" : { "name" : "kazein" } },
+			{ "item" : { "name" : "crystal" } },
+			{ "item" : { "name" : "resoniteseed" } },
+			{ "item" : { "name" : "hironseed" } },
+			{ "item" : { "name" : "zoastoneseed" } }
+		]]
+	]
+}
+
+//{ "op" : "add"
+	//,"path" : "/kazdrascience"
+	//,"value" : [
+
+	//]
+//},
+]

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "agirezon", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "agatetile",
+    "count" : 10
+  },
+  "groups" : [ "plain", "materials", "all" ]
+}

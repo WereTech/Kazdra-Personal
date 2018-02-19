@@ -1,0 +1,21 @@
+{
+  "materialId" : 28003,
+  "materialName" : "kazship1",
+  "particleColor" : [149, 149, 149, 255],
+  "itemDrop" : "kazship1",
+  "shortdescription" : "Kazdra Light Metal",
+  "description" : "It seems that metal was deemed necessary for this structure.",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "health" : 25,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "kazship1.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

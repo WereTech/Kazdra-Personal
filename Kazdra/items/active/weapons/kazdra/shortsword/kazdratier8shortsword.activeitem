@@ -1,0 +1,72 @@
+{
+  "itemName" : "kazdratier8shortsword",
+  "level" : 7,
+  "price" : 980,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "A resonance blade fashioned after a sword of myth. I've tuned the resonance field to be as fine as you can get.",
+  "shortdescription" : "Werund",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "kazdratier8shortsword.png",
+
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "kazdratier8shortsword.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.625,
+    "baseDps" : 7.5
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+  /*"firePosition" : [22, -2],
+  "fireTime" : 0.37,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_shortsword.ogg" } ] },
+
+
+  "primaryStances" : {
+    "directional" : true,
+    "projectileType" : "shortswordswoosh",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 4.0
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [1.0, -15.5],
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : 0,
+      "swordAngle" : -60,
+      "handPosition" : [4, -24.4],
+      "duration" : 0.05,
+      "statusEffects" : [ ]
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -140,
+      "swordAngle" : -100,
+      "handPosition" : [4.0, -10.2],
+      "duration" : 0.4,
+      "statusEffects" : [ ]
+    }
+  }*/
+}

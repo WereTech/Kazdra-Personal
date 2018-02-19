@@ -1,0 +1,10 @@
+{
+  "itemName" : "kazship1",
+  "rarity" : "Common",
+  "inventoryIcon" : "kazship1.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "It seems that metal was deemed necessary for this structure.",
+  "shortdescription" : "Kazdra Light Metal",
+
+  "materialId" : 28003
+}

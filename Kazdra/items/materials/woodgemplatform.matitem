@@ -1,0 +1,10 @@
+{
+  "itemName" : "woodgemplatform",
+  "rarity" : "Common",
+  "inventoryIcon" : "woodgemplatform.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A platform made of wood and crystal.",
+  "shortdescription" : "Crystal Platform",
+
+  "materialId" : 28008
+}

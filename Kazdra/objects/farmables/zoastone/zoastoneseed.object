@@ -1,0 +1,55 @@
+{
+  "objectName" : "zoastoneseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A dark mineral that seems to absorb sound.",
+  "shortdescription" : "Zoa Stone Seedcrystal",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 285,
+
+  "apexDescription" : "Sure is quiet around here...",
+  "avianDescription" : "The area around these stones is eerily silent...",
+  "floranDescription" : "Rock make floran uneasy...",
+  "glitchDescription" : "Spooked. Are these odd stones responsible for the silence in this cave?",
+  "humanDescription" : "the silence here is eerie, especially when I'm close to these rocks",
+  "hylotlDescription" : "This spot near these strange stones seems like the perfect place to meditate.",
+  "kazdraDescription" : "These stones may seem to only dampen sound, but they also have another purpose.",
+  
+  "lightColor" : [5, 1, 30],
+
+  "inventoryIcon" : "zoastoneseedicon.png",
+  
+  "tooltipKind" : "seed",
+  "largeImage" : "zoastoneseed.png:default.2.3",
+  "orientations" : [
+    {
+      "dualImage" : "zoastoneseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+"stages" : [
+    {
+      "duration" : [220, 220]
+    },
+    {
+      "duration" : [220, 220]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "zoastoneHarvest"
+    }
+  ],
+  
+  "consumeSoilMoisture" : false
+  
+}

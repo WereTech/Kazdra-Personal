@@ -1,0 +1,10 @@
+{
+  "itemName" : "swirlrelief",
+  "rarity" : "Common",
+  "inventoryIcon" : "swirlrelief.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "This relief is soothing to look at.",
+  "shortdescription" : "Swirling Relief",
+
+  "materialId" : 28005
+}

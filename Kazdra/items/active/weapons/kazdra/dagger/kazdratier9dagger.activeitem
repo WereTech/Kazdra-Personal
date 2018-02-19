@@ -1,0 +1,115 @@
+{
+  "itemName" : "kazdratier9dagger",
+  "level" : 6,
+  "price" : 870,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "A dagger so fine, it'll cut your foe down to size in milliseconds. It also slices, dices, and fillets.",
+  "shortdescription" : "Silbask",
+  "tooltipKind" : "sword",
+  "category" : "dagger",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","dagger"],
+
+  "inventoryIcon" : "kazdratier1dagger.png",
+
+  "animation" : "/items/active/weapons/melee/dagger/dagger.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "kazdratier1dagger.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_dagger.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : 0.0,
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
+    "class" : "MeleeSlash",
+
+    "fireTime" : 0.35,
+    "baseDps" : 9.0,
+    "damageConfig" : {
+      "damageSourceKind" : "dagger",
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+      "knockback" : 10,
+      "timeoutGroup" : "primary"
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : -10,
+        "weaponOffset" : [0, 2.25],
+
+        "allowFlip" : true,
+        "allowRotate" : true
+      },
+      "windup" : {
+        "duration" : 0.05,
+        "armRotation" : -20,
+        "weaponRotation" : -20,
+        "weaponOffset" : [0, 2.25],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "fire" : {
+        "duration" : 0.2,
+        "armRotation" : -135,
+        "weaponRotation" : 40,
+        "weaponOffset" : [0, 2.5],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      }
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/swing_dagger.ogg" ],
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+  /*"firePosition" : [13.5, -1.5],
+  "fireTime" : 0.25,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_dagger.ogg" } ] },
+
+
+  "primaryStances" : {
+    "directional" : true,
+    "projectileType" : "daggerswoosh",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 2.5
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [-3, -18.5],
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : 0,
+      "swordAngle" : -60,
+      "handPosition" : [0.2, -25],
+      "duration" : 0.05,
+      "statusEffects" : [ ]
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -140,
+      "swordAngle" : -90,
+      "handPosition" : [2.7, -12.5],
+      "duration" : 0.4,
+      "statusEffects" : [ ]
+    }
+  }*/
+}

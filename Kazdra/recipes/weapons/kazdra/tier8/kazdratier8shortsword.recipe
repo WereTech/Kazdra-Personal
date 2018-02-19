@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "resonite", "count" : 70 },
+    { "item" : "refinedviolium", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "kazdratier8shortsword",
+    "count" : 1
+  },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "kazein",
+  "rarity" : "Common",
+  "price" : 55,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "kazein.png",
+  "description" : "A round, green gem that will rarely grow near hiron clusters. This amazing crystal seems to defy gravity.",
+  "shortdescription" : "Kazein Crystal",
+  "itemTags" : [ "reagent" ]
+}

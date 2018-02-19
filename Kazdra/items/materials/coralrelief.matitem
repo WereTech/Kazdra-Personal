@@ -1,0 +1,10 @@
+{
+  "itemName" : "coralrelief",
+  "rarity" : "Common",
+  "inventoryIcon" : "coralrelief.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Must have taken ages to carve this.",
+  "shortdescription" : "Coral Relief",
+
+  "materialId" : 28000
+}

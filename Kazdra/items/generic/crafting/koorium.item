@@ -1,0 +1,10 @@
+{
+  "itemName" : "koorium",
+  "rarity" : "Common",
+  "price" : 45,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "koorium.png",
+  "description" : "A blue gem with an extremely odd crystal pattern. This crystal is almost too cold to hold",
+  "shortdescription" : "Koorium Crystal",
+  "itemTags" : [ "reagent" ]
+}

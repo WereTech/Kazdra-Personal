@@ -1,0 +1,20 @@
+{
+  "kazdraStarterTreasure" : [
+    [0, {
+        "fill" : [
+          {"item" : "flashlight"},
+          {"item" : [ "torch", 10 ]},
+          {"item" : [ "crystalplantseed", 3]},
+          {"item" : [ "resoniteseed", 8]},
+		      //{"item" : [ "kazdrastarter", 1]},
+			  //{"item" : [ "generatedsword", 1, { "definition" : "commonbattledrill" }]},
+			  {"item" : [ "kazneedle1", 1]},
+			  {"item" : [ "resonite", 50]},
+			  {"item" : [ "hironseed", 3]},
+			  //{"item" : [ "magnorbs", 1]},
+			  {"item" : [ "zoastoneseed", 3]}
+			  //{"item" : [ "kazduskorhead", 1]}
+        ]
+      } ]
+  ]
+}

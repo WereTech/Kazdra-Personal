@@ -1,0 +1,59 @@
+{
+  "objectName" : "tinyglowgem",
+  "colonyTags" : ["kazdra","light"],
+  "rarity" : "Common",
+  "description" : "These fragile crystals emit a soft blueish light.",
+  "shortdescription" : "Wolf Stone",
+  "race" : "kazdra",
+
+  "category" : "light",
+  "price" : 500,
+  "lightColor" : [20, 70, 50],
+
+  "apexDescription" : "I hope that the strange folk don't find their way into the higher reaches of the kazdra's mountains...",
+  "avianDescription" : "I wonder if anyone would mind if I took one of these shiny stones.",
+  "floranDescription" : "Can floran hasss?",
+  "glitchDescription" : "Indifferent. a glowing gem.",
+  "humanDescription" : "Brilliant!",
+  "hylotlDescription" : "maybe if I run across a floran I can distract it with this.",
+  "kazdraDescription" : "Honestly, I'm not quite sure why we call it wolf stone. It's basically just glowing moonstone.",
+
+  "inventoryIcon" : "tinyglowgemicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tinyglowgemdown.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "dualImage" : "tinyglowgemup.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "tinyglowgemleft.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+    {
+      "image" : "tinyglowgemright.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    }
+  ]
+}

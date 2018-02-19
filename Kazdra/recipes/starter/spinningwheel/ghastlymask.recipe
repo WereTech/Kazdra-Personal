@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "sharpenedclaw", "count" : 5 },
+	{ "item" : "bone", "count" : 20 },
+	{ "item" : "resonite", "count" : 35 }
+  ],
+  "output" : {
+    "item" : "kazghastlyhead",
+	"count" : 1
+  },
+  "groups" : [ "craftingwheel", "clothes" ]
+}

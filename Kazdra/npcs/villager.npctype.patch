@@ -1,0 +1,80 @@
+[
+	{ "op" : "add"
+		,"path" : "/items/kazdra"
+		,"value" : [
+			[0, [
+				{
+		    "chest" : [
+			{ "name" : "gemcraftchest", "data" : { "colorIndex" : 1 } }, 
+			{ "name" : "gemcraftchest", "data" : { "colorIndex" : 3 } }, 
+			{ "name" : "gemcraftchest", "data" : { "colorIndex" : 4 } }, 
+			{ "name" : "gemcraftchest", "data" : { "colorIndex" : 5 } }, 
+			{ "name" : "gemcraftchest", "data" : { "colorIndex" : 6 } }, 
+			{ "name" : "gemcraftchest", "data" : { "colorIndex" : 7 } }, 
+			{ "name" : "gemcraftchest", "data" : { "colorIndex" : 8 } }, 
+			{ "name" : "gemcraftchest", "data" : { "colorIndex" : 9 } },
+			{ "name" : "huntsmanshirt", "data" : { "colorIndex" : 1 } }, 
+			{ "name" : "huntsmanshirt", "data" : { "colorIndex" : 3 } }, 
+			{ "name" : "huntsmanshirt", "data" : { "colorIndex" : 4 } }, 
+			{ "name" : "huntsmanshirt", "data" : { "colorIndex" : 5 } }, 
+			{ "name" : "huntsmanshirt", "data" : { "colorIndex" : 6 } }, 
+			{ "name" : "huntsmanshirt", "data" : { "colorIndex" : 7 } }, 
+			{ "name" : "huntsmanshirt", "data" : { "colorIndex" : 8 } }, 
+			{ "name" : "huntsmanshirt", "data" : { "colorIndex" : 9 } },
+			{ "name" : "thiefshirt", "data" : { "colorIndex" : 1 } }, 
+			{ "name" : "thiefshirt", "data" : { "colorIndex" : 3 } }, 
+			{ "name" : "thiefshirt", "data" : { "colorIndex" : 4 } }, 
+			{ "name" : "thiefshirt", "data" : { "colorIndex" : 5 } }, 
+			{ "name" : "thiefshirt", "data" : { "colorIndex" : 6 } }, 
+			{ "name" : "thiefshirt", "data" : { "colorIndex" : 7 } }, 
+			{ "name" : "thiefshirt", "data" : { "colorIndex" : 8 } }, 
+			{ "name" : "thiefshirt", "data" : { "colorIndex" : 9 } },
+			{ "name" : "bellshirt", "data" : { "colorIndex" : 1 } }, 
+			{ "name" : "bellshirt", "data" : { "colorIndex" : 3 } }, 
+			{ "name" : "bellshirt", "data" : { "colorIndex" : 4 } }, 
+			{ "name" : "bellshirt", "data" : { "colorIndex" : 5 } }, 
+			{ "name" : "bellshirt", "data" : { "colorIndex" : 6 } }, 
+			{ "name" : "bellshirt", "data" : { "colorIndex" : 7 } }, 
+			{ "name" : "bellshirt", "data" : { "colorIndex" : 8 } }, 
+			{ "name" : "bellshirt", "data" : { "colorIndex" : 9 } }	
+			],
+
+			"legs" : [
+			{ "name" : "huntsmanskals", "data" : { "colorIndex" : 1 } }, 
+			{ "name" : "huntsmanskals", "data" : { "colorIndex" : 3 } }, 
+			{ "name" : "huntsmanskals", "data" : { "colorIndex" : 4 } }, 
+			{ "name" : "huntsmanskals", "data" : { "colorIndex" : 5 } }, 
+			{ "name" : "huntsmanskals", "data" : { "colorIndex" : 6 } }, 
+			{ "name" : "huntsmanskals", "data" : { "colorIndex" : 7 } }, 
+			{ "name" : "huntsmanskals", "data" : { "colorIndex" : 8 } }, 
+			{ "name" : "huntsmanskals", "data" : { "colorIndex" : 9 } },
+			{ "name" : "bellskals", "data" : { "colorIndex" : 1 } }, 
+			{ "name" : "bellskals", "data" : { "colorIndex" : 3 } }, 
+			{ "name" : "bellskals", "data" : { "colorIndex" : 4 } }, 
+			{ "name" : "bellskals", "data" : { "colorIndex" : 5 } }, 
+			{ "name" : "bellskals", "data" : { "colorIndex" : 6 } }, 
+			{ "name" : "bellskals", "data" : { "colorIndex" : 7 } }, 
+			{ "name" : "bellskals", "data" : { "colorIndex" : 8 } }, 
+			{ "name" : "bellskals", "data" : { "colorIndex" : 9 } },
+			{ "name" : "gemcraftskals", "data" : { "colorIndex" : 1 } }, 
+			{ "name" : "gemcraftskals", "data" : { "colorIndex" : 3 } }, 
+			{ "name" : "gemcraftskals", "data" : { "colorIndex" : 4 } }, 
+			{ "name" : "gemcraftskals", "data" : { "colorIndex" : 5 } }, 
+			{ "name" : "gamcraftskals", "data" : { "colorIndex" : 6 } }, 
+			{ "name" : "gemcraftskals", "data" : { "colorIndex" : 7 } }, 
+			{ "name" : "gemcraftskals", "data" : { "colorIndex" : 8 } }, 
+			{ "name" : "gemcraftskals", "data" : { "colorIndex" : 9 } },
+			{ "name" : "thiefskals", "data" : { "colorIndex" : 1 } }, 
+			{ "name" : "thiefskals", "data" : { "colorIndex" : 3 } }, 
+			{ "name" : "thiefskals", "data" : { "colorIndex" : 4 } }, 
+			{ "name" : "thiefskals", "data" : { "colorIndex" : 5 } }, 
+			{ "name" : "thiefskals", "data" : { "colorIndex" : 6 } }, 
+			{ "name" : "thiefskals", "data" : { "colorIndex" : 7 } }, 
+			{ "name" : "thiefskals", "data" : { "colorIndex" : 8 } }, 
+			{ "name" : "thiefskals", "data" : { "colorIndex" : 9 } }
+			]
+		}
+	] ]
+	] 
+}
+] 

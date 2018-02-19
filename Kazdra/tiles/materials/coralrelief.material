@@ -1,0 +1,23 @@
+{
+  "materialId" : 28000,
+  "materialName" : "coralrelief",
+  "particleColor" : [236, 216, 190, 255],
+  "itemDrop" : "coralrelief",
+  "description" : "Must have taken ages to carve.",
+  "shortdescription" : "Steel-Coral Relief",
+  "glitchDescription" : "Statement. Painted brick.",
+  "floranDescription" : "Bricksss.",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 30,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "coralrelief.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "resonite", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "kazdratier2hammer",
+    "count" : 1
+  },
+  "groups" : [ "metalworkstation", "weapons", "all" ]
+}

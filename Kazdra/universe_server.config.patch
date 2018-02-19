@@ -1,0 +1,15 @@
+[
+	{ "op" : "add","path" : "/speciesShips/kazdra",
+		"value" : [
+			"/ships/kazdra/kazdratT0.structure",
+			"/ships/kazdra/kazdratT1.structure",
+			"/ships/kazdra/kazdratT2.structure",
+			"/ships/kazdra/kazdratT3.structure",
+			"/ships/kazdra/kazdratT4.structure",
+			"/ships/kazdra/kazdratT5.structure",
+			"/ships/kazdra/kazdratT6.structure",
+			"/ships/kazdra/kazdratT7.structure",
+			"/ships/kazdra/kazdratT8.structure"
+		]
+	}
+]

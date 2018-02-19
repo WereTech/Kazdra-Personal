@@ -1,0 +1,55 @@
+{
+  "objectName" : "hironseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "description" : "Grows a cluster of fiery crystals.",
+  "category" : "seed",
+  "shortdescription" : "Hiron Seedcrystal",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 360,
+
+  "apexDescription" : "Ow! that crystal is HOT!",
+  "avianDescription" : "This crystal seems to contain the essence of fire.",
+  "floranDescription" : "Floran keep away from sssolid fire.",
+  "glitchDescription" : "Engineering. If you were to place these crystals inside underground pipes, you wouldn't have to worry about ice.",
+  "humanDescription" : "Fire!",
+  "hylotlDescription" : "With these you could heat an entire building.",
+  "kazdraDescription" : "These crystals heat up quickly when agitated. there are several practical uses for them.",
+  
+  "lightColor" : [163, 41, 37],
+
+  "inventoryIcon" : "hironseedicon.png",
+  
+  "tooltipKind" : "seed",
+  "largeImage" : "hironseed.png:default.2.4",
+  "orientations" : [
+    {
+      "dualImage" : "hironseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+"stages" : [
+    {
+      "duration" : [220, 220]
+    },
+    {
+      "duration" : [220, 220]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "hironHarvest"
+    }
+  ],
+  
+  "consumeSoilMoisture" : false
+  
+}

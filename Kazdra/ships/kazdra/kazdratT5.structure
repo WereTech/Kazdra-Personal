@@ -1,0 +1,24 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000,
+	  "crewSize" : 6
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "kazdraT5.png",
+      "position" : [4.62, 12.37],
+      "fullbright" : true
+    },
+    {
+      "image" : "kazdraT5lit.png",
+      "position" : [4.62, 12.37]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "kazdraT5blocks.png"
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "resonite", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "crystalpanel",
+    "count" : 1000
+  },
+  "groups" : [ "plain", "materials", "all" ]
+}

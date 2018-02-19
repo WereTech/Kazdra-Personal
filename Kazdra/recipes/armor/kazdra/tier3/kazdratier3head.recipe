@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 3 },
+    { "item" : "resonite", "count" : 100 }
+  ],
+  "output" : { "item" : "kazdratier3head", "count" : 1 },
+  "groups" : [ "craftinganvil2", "armours", "all" ]
+}

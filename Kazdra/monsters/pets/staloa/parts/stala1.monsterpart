@@ -1,0 +1,9 @@
+{
+  "name" : "goldstaloa",
+  "category" : "staloa",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "stala1.png"
+  }
+}

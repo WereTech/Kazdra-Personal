@@ -1,0 +1,11 @@
+{
+  "itemName" : "resonite",
+  "rarity" : "Common",
+  "price" : 45,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "resonite.png",
+  "description" : "The lifeblood of kazdra technology.",
+  "shortdescription" : "Resonite Crystal",
+  "itemTags" : [ "reagent" ],
+  "fuelAmount" : 10
+}

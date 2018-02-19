@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "resonite", "count" : 2 },
+    { "item" : "cobblestonematerial", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "kazdratorch",
+    "count" : 5
+  },
+  "groups" : [ "plain", "objects", "all" ]
+}

@@ -1,0 +1,24 @@
+{
+  "materialId" : 28001,
+  "materialName" : "kazwoodflooring",
+  "particleColor" : [89, 127, 52, 255],
+  "itemDrop" : "kazwoodflooring",
+  "description" : "Ornate wooden flooring.",
+  "shortdescription" : "Kazdra Flooring",
+  "glitchDescription" : "Admiration. A beautiful ornate floor.",
+  "floranDescription" : "Floran walk on ornate floor with ssstilettos.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 20,
+  "category": "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "kazwoodflooring.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "materialId" : 28008,
+  "materialName" : "woodgemplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "woodgemplatform",
+  "shortdescription" : "Crystal Platform",
+  "description" : "A platform made of wood and crystal.",
+  "category": "Supports",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "woodgemplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

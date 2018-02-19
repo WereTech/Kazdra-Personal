@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "resonite", "count" : 35 },
+    { "item" : "durasteelbar", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "kazdratier4shortsword",
+    "count" : 1
+  },
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
+}

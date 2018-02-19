@@ -1,0 +1,59 @@
+{
+  "objectName" : "glowgem",
+  "colonyTags" : ["kazdra","light"],
+  "rarity" : "Common",
+  "description" : "These fragile crystals emit a soft blueish light.",
+  "shortdescription" : "Embryt Crystals",
+  "race" : "kazdra",
+
+  "category" : "light",
+  "price" : 70,
+  "lightColor" : [38, 87, 186],
+
+  "apexDescription" : "pretty crystals that emit light, what more is there to say?",
+  "avianDescription" : "unlike our people, the Kazdra seem to leave some crystals as natural light sources.",
+  "floranDescription" : "Floran curiouss how wingy lizardsss manage to catch ssun in rock...",
+  "glitchDescription" : "Inspect. I wonder if this could possibly be refined into a fuel.",
+  "humanDescription" : "Kazdran caves are quite beautiful. They remind me of a song by an apex band called 'Apez'.",
+  "hylotlDescription" : "Not much in the way of style, but the natural aesthetic matches the surroundings nicely.",
+  "kazdraDescription" : "Us Kazdra are quite fond of these little gems. Their soft glow is very relaxing.",
+
+  "inventoryIcon" : "glowgemicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "glowgemdown.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "dualImage" : "glowgemup.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "glowgemleft.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+    {
+      "image" : "glowgemright.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    }
+  ]
+}

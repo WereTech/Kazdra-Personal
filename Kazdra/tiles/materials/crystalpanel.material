@@ -1,0 +1,21 @@
+{
+  "materialId" : 28100,
+  "materialName" : "crystalpanel",
+  "particleColor" : [227, 174, 47, 255],
+  "itemDrop" : "crystalpanel",
+  "description" : "It almost looks like a honeycomb.",
+  "shortdescription" : "Crystal Panels",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 35,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "crystalpanel.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

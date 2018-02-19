@@ -1,0 +1,10 @@
+{
+  "itemName" : "kazcloth",
+  "rarity" : "Common",
+  "inventoryIcon" : "kazcloth.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A rug or tapestry, depending on where it's placed.",
+  "shortdescription" : "Kazdra Textile",
+
+  "materialId" : 27990
+}

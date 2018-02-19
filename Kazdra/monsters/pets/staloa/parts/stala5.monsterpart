@@ -1,0 +1,9 @@
+{
+  "name" : "blackstaloa",
+  "category" : "staloa",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "stala5.png"
+  }
+}

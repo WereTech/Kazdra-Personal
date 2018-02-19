@@ -1,0 +1,21 @@
+{
+  "materialId" : 27990,
+  "materialName" : "kazcloth",
+  "particleColor" : [50, 50, 110, 255],
+  "itemDrop" : "kazcloth",  
+  "description" : "A rug or tapestry, depending on which surface it's placed.",
+  "shortdescription" : "Kazdra Textile",
+  "footstepSound" : "/sfx/blocks/footstep_sand.ogg",
+  "health" : 3,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "kazcloth.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

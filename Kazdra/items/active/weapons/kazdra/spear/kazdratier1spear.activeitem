@@ -1,0 +1,80 @@
+{
+  "itemName" : "kazdratier1spear",
+  "price" : 200,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A standard spear, a test of your craftsmanship.",
+  "shortdescription" : "Kalka",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "inventoryIcon" : "kazdratier1spear.png",
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "kazdratier1spear.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.95,
+    "baseDps" : 10.5
+  },
+
+  "altAbilityType" : "flurry",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+  /*"firePosition" : [32.5, -8.5],
+  "fireTime" : 0.85,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_spear.ogg" } ] },
+
+
+  "primaryStances" : {
+    "directional" : true,
+    "projectileType" : "spearswoosh",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 8.8
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [0.5, -3.5],
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : -110,
+      "swordAngle" : -90,
+      "handPosition" : [1.5, 1.5],
+      "duration" : 0.05,
+      "statusEffects" : []
+    },
+    "cooldown" : {
+      "twoHanded" : true,
+      "armAngle" : -50,
+      "swordAngle" : -90,
+      "handPosition" : [1.5, -19.5],
+      "duration" : 0.2,
+      "statusEffects" : []
+    }
+  }*/
+}

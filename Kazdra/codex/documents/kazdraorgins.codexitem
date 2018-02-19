@@ -1,0 +1,10 @@
+{
+"codexId" : "kazdraprologue",
+"title" : "Study of Kazdra",
+"codexkind" : "codex",
+"inventoryIcon" : "kazdracodexfront.png",
+"itemName" : "kazdraorigins",
+"rarity" : "common",
+"description" : "An scientific analysis of the Kazdra.",
+"shortdescription" : "Study Kazdra"
+}

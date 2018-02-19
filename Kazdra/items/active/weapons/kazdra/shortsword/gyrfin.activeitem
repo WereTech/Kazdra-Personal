@@ -1,0 +1,72 @@
+{
+  "itemName" : "gyrfin",
+  "level" : 1,
+  "price" : 1500,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A strong kazdran blade. It takes fine metalworking and gemcrafting skills to make a sword like this.",
+  "shortdescription" : "Gyrfin",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "gyrfin.png",
+
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "gyrfin.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.625,
+    "baseDps" : 7.5
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+  /*"firePosition" : [22, -2],
+  "fireTime" : 0.666,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_onehanded.wav" } ] },
+
+
+  "primaryStances" : {
+    "directional" : true,
+    "projectileType" : "shortswordswoosh1",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 5
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -90,
+      "handPosition" : [1.0, -15.5],
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : 0,
+      "swordAngle" : -60,
+      "handPosition" : [4, -24.4],
+      "duration" : 0.2,
+      "statusEffects" : [ ]
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -140,
+      "swordAngle" : -90,
+      "handPosition" : [2.0, -12.2],
+      "duration" : 0.4,
+      "statusEffects" : [ ]
+    }
+  }*/
+}

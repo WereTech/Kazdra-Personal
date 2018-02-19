@@ -1,0 +1,10 @@
+{
+  "itemName" : "crystalpanel",
+  "rarity" : "Common",
+  "inventoryIcon" : "crystalpanel.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Rows of crystals connected by thin sheets of metal.",
+  "shortdescription" : "Crystal Panel",
+
+  "materialId" : 28100
+}

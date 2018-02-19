@@ -1,0 +1,44 @@
+{
+  "resoniteHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "resonite"},
+        {"weight" : 0.3, "item" : "resoniteseed"},
+        {"weight" : 0.1, "item" : "koorium"}
+      ],
+      "poolRounds" : [
+        [0.7, 8],
+        [0.3, 15]
+      ]
+    } ]
+  ],
+
+  "hironHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "hiron"},
+        {"weight" : 0.4, "item" : "hironseed"},
+        {"weight" : 0.1, "item" : "kazein"}
+      ],
+      "poolRounds" : [
+        [0.7, 8],
+        [0.3, 15]
+      ]
+    } ]
+  ],
+
+  "zoastoneHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "zoastone"},
+        {"weight" : 0.3, "item" : "zoastoneseed"},
+        {"weight" : 0.1, "item" : "resonite"}
+      ],
+      "poolRounds" : [
+        [0.7, 8],
+        [0.3, 15]
+      ]
+    } ]
+  ]
+
+}

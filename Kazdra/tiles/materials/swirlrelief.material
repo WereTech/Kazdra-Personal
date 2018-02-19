@@ -1,0 +1,21 @@
+{
+  "materialId" : 28005,
+  "materialName" : "swirlrelief",
+  "particleColor" : [34, 72, 102, 255],
+  "itemDrop" : "swirlrelief",
+  "shortdescription" : "Swirling Relief",
+  "description" : "This relief is soothing to look at.",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "health" : 30,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "swirlrelief.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

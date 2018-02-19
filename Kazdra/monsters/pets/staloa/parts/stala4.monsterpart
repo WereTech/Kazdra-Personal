@@ -1,0 +1,9 @@
+{
+  "name" : "hyenastaloa",
+  "category" : "staloa",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "stala4.png"
+  }
+}

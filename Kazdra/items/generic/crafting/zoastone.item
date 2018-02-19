@@ -1,0 +1,10 @@
+{
+  "itemName" : "zoastone",
+  "rarity" : "Common",
+  "price" : 73,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "zoastone.png",
+  "description" : "This dark mineral seems to absorb sound, yet when exposed to resonite it amplifies its tone.",
+  "shortdescription" : "Zoa Stone",
+  "itemTags" : [ "reagent" ]
+}

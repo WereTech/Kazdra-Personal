@@ -1,0 +1,21 @@
+{
+  "materialId" : 28105,
+  "materialName" : "agatetile",
+  "particleColor" : [227, 174, 47, 255],
+  "itemDrop" : "agatetile",
+  "description" : "These agate tiles make it look as if there's a waterfall here.",
+  "shortdescription" : "Agate Tile",
+  "footstepSound" : "/sfx/blocks/footstep_ice.ogg",
+  "health" : 10,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "agatetile.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

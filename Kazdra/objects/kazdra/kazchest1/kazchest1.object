@@ -1,0 +1,40 @@
+{
+  "objectName" : "kazchest1",
+  "colonytags" : ["kazdra","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 500,
+  "description" : "A resonance-tech chest, this one's made of stone.",
+  "shortdescription" : "Resonance-Tech Chest",
+  "race" : "kazdra",
+  "health" : 3.0,
+
+  "apexDescription" : "A high-tech chest. It looks as if it might contain something valuable.",
+  "avianDescription" : "A chest that looks like it stores something valuable.",
+  "floranDescription" : "Sspecial sshiny chesst.",
+  "glitchDescription" : "Non-committal. This chest is of unknown origin.",
+  "humanDescription" : "Who made this? What's in it?",
+  "hylotlDescription" : "There is amazing technology built into the chest itself.",
+
+  "inventoryIcon" : "kazchest1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kazchest1.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 6,
+  "autoCloseCooldown" : 3600
+}

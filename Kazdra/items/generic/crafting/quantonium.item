@@ -1,0 +1,10 @@
+{
+  "itemName" : "quantonium",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "quantonium.png",
+  "description" : "Whatever you've done to this resonite has created the solution to the universes fuel problem...",
+  "shortdescription" : "Quantonium Crystal",
+  "itemTags" : [ "reagent" ],
+  "fuelAmount" : 900
+}

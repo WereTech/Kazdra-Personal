@@ -1,0 +1,10 @@
+{
+  "itemName" : "kazwoodflooring",
+  "rarity" : "Common",
+  "inventoryIcon" : "kazwoodflooring.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Ornate wooden flooring.",
+  "shortdescription" : "Kazdra Flooring",
+
+  "materialId" : 28001
+}

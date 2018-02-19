@@ -1,0 +1,9 @@
+{
+  "name" : "foreststaloa",
+  "category" : "staloa",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "stala2.png"
+  }
+}

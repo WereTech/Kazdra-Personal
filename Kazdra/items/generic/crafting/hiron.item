@@ -1,0 +1,10 @@
+{
+  "itemName" : "hiron",
+  "rarity" : "Common",
+  "price" : 58,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "hiron.png",
+  "description" : "A beautiful, red, slender crystal that grows in clusters. This crystal is almost too hot to touch.",
+  "shortdescription" : "Hiron Crystal",
+  "itemTags" : [ "reagent" ]
+}
