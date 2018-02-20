@@ -3,19 +3,20 @@
   "materialName" : "kazship2",
   "particleColor" : [176, 174, 168, 255],    
   "itemDrop" : "kazship2",
-  "description" : "Thick metal plates, for when light plating isn't good enough.",
-  "shortdescription" : "Kazdra Heavy Plating",
-  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
-  "health" : 51,
-  "category": "materials",
   
-  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "description" : "Thick metal plates, for when light plating isn't good enough.",
+  "shortdescription" : "Kazdra Heavy Panel",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 24,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "kazship2.png",
-    "variants" : 10,
+    "variants" : 8,
     "lightTransparent" : false,
     "multiColored" : true,
     "occludesBelow" : true,
-    "zLevel" : 0
+    "zLevel" : 5001
   }
 }

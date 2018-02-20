@@ -1,10 +1,10 @@
 {
   "itemName" : "kazship2",
   "rarity" : "Common",
+  "category" : "block",
   "inventoryIcon" : "kazship2.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "description" : "Heavy metal plates, for when light plating just isn't enough.",
-  "shortdescription" : "Kazdra Heavy Plating",
+  "shortdescription" : "Kazdra Heavy Panel",
 
   "materialId" : 27999
 }
