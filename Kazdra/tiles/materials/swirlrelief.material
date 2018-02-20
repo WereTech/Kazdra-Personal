@@ -6,7 +6,7 @@
   "shortdescription" : "Swirling Relief",
   "description" : "This relief is soothing to look at.",
   "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
-  "health" : 30,
+  "health" : 12,
   "category": "materials",
   
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
@@ -14,7 +14,7 @@
     "texture" : "swirlrelief.png",
     "variants" : 5,
     "lightTransparent" : false,
-    "multiColored" : false,
+    "multiColored" : true,
     "occludesBelow" : true,
     "zLevel" : 0
   }
