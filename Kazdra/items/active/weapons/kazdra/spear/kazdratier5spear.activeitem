@@ -6,6 +6,7 @@
   "rarity" : "rare",
   "description" : "A lighter more stylised resonance spear.",
   "shortdescription" : "Welsenja Lagra",
+  "tooltipKind" : "sword",
   "category" : "spear",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","spear"],

@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "money", "count" : 115 }
+    { "item" : "money", "count" : 300 }
   ],
   "output" : {
-    "item" : "kahla",
+    "item" : "kahla2",
     "count" : 1
   },
   "groups" : [ "plain", "objects", "all" ]

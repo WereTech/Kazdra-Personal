@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 3 },
+    { "item" : "resonite", "count" : 135 }
+  ],
+  "output" : { "item" : "kazdratier5head", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours", "all" ]
+}

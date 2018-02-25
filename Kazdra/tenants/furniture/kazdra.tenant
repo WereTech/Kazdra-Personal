@@ -1,25 +1,26 @@
 {
-  "name": "kazdra",
-  "priority": 10,
+  "name" : "kazdra",
+  "priority" : 10,
 
-  "colonyTagCriteria": {
-    "light": 1,
-    "door": 1,
-    "kazdra": 16
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "kazdra" : 16
   },
 
-  "tenants": [
+  "tenants" : [
     {
-      "spawn": "npc",
-      "species": "kazdra",
-      "type": "kazdra",
-      "overrides": {
+      "spawn" : "npc",
+      "species" : "kazdra",
+      "type" : "villager",
+      "overrides" : {
+	  "damageTeamType" : "friendly"
        }
      }
    ],
 
-  "rent": {
-    "periodRange": [900.0, 1800.0],
-    "pool": "villagerGift"
+  "rent" : {
+    "periodRange" : [900.0, 1800.0],
+    "pool" : "villagerGift"
   }
 }

@@ -3,8 +3,8 @@
   "colonyTags" : [ "kazdra","common" ],
   "rarity" : "Common",
   "description" : "Place in an enclosed building with at least one door and light source and a Kazdra will move in!",
-  "shortdescription" : "^yellow;Colony Deed",
-  "race" : "villager",
+  "shortdescription" : "^yellow;Kazdra Colony Deed",
+  "race" : "generic",
   "printable" : false,
   "category" : "spawner",
   "price" : 750,
@@ -17,10 +17,10 @@
   "hylotlDescription" : "If hung in an enclosed building with a door and a light, a Kazdra will move in and make it their home.",
   "novakidDescription" : "With a colony deed a Kazdra'll move into the building. Just make sure the building has a door an' a light source.",
 
-  "inventoryIcon" : "colonydeedicon.png",
+  "inventoryIcon" : "kazdracolonydeedicon.png",
   "orientations" : [
     {
-      "image" : "colonydeed.png:scanning.<frame>",
+      "image" : "kazdracolonydeed.png:scanning.<frame>",
       "direction": "right",
       "imagePosition" : [-8, -8],
 
@@ -40,7 +40,7 @@
   "animation" : "/objects/spawner/colonydeed/colonydeed.animation",
 
   "animationParts" : {
-    "deed" : "colonydeed.png"
+    "deed" : "kazdracolonydeed.png"
   },
   "animationPosition" : [-8, -8],
 
